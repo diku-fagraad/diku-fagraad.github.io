@@ -38,7 +38,7 @@ Alle disse kvaliteter er med til at skabe et tilgængeligt studie med en kultur 
 ## FAGLIGHED - Dyb forståelse
 
 Universitetet skal udbyde svære kurser
-udfordrende men ikke udoverkommeligt
+udfordrende men ikke uoverkommeligt
 Faglige fællesskaber
 ikke bare reproducere
 
