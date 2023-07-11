@@ -1,1 +1,0 @@
-# DIKU Fagråd
