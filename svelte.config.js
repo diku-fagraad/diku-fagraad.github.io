@@ -15,7 +15,8 @@ const config = {
 			precompress: false,
 			strict: true
         })
-	}
+	},
+
 };
 
 export default config;
