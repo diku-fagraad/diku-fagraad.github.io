@@ -1,0 +1,41 @@
+name: "Deploy to GitHub Pages"
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install and Build
+        run: |
+          npm install
+          npm run build
+
+      - name: Archive artifact
+        run: |
+            tar \
+              --dereference --hard-dereference \
+              --directory "$INPUT_PATH" \
+              -cvf "$RUNNER_TEMP/artifact.tar" \
+              --exclude=.git \
+              --exclude=.github \
+              .
+        env:
+          INPUT_PATH: build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
+          
+          - name: Deploy
+          id: deployment
+          uses: actions/deploy-pages@v2
