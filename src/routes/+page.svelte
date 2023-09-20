@@ -2,7 +2,7 @@
 
     <div class="w-[100%] h-[100%] flex flex-row justify-center">
         <div class="w-text m-5">
-            <title class="text-5xl">Om Fagrådet</title>
+            <h1 class="text-5xl">Om Fagrådet</h1>
             <p class="pt-2">
                 Fagrådet ved Datalogisk Institut på Københavns Universitet (DIKU) er nyopstartet og har til formål at styrke studiemiljøet, repræsentere studerendes interesser, og fremme samarbejdet mellem studerende og Institut. Dette inkluderer studievejledning, arrangementer, feedbackindsamling, ressourcefordeling, og bidrag til studieudvikling for at skabe en positiv studieoplevelse.
             </p>
