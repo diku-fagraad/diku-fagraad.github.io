@@ -2,7 +2,7 @@
   import "../app.css";
   import MenuIcon from "../component/MenuIcon.svelte";
 
-  let isMenuOpen: boolean = true;
+  let isMenuOpen: boolean = false;
 </script>
 
 
