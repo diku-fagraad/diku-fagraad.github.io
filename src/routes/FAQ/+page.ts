@@ -11,10 +11,6 @@ export async function load() {
             "question": "Hvordan kan jeg blive en del af fagrådet?",
             "answer": "Alle på DIKU er velkomne til at deltage i fagrådet, og man kan bare møde op til det næste fagrådsmøde."
         },
-        {
-            "question": "dnur?",
-            "answer": "dnur"
-        }
     ]}
 }
 
