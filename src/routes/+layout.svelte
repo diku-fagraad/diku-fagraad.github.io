@@ -9,10 +9,10 @@
 
 <div class="flex flex-col h-screen w-screen">
   <div class="w-screen h-12 bg-ku flex content-center">
-    <MenuIcon bind:isOpen={isMenuOpen} />
+    <!-- <MenuIcon bind:isOpen={isMenuOpen} /> -->
   </div>
-  <div class="flex-1 w-screen">
-    <div
+   <div class="flex-1 w-screen">
+   <!-- <div
       style={`display:${isMenuOpen ? "flex" : "none"};`}
       class="fixed top-12 left-0 w-[80%] max-w-sm h-[100%] bg-group flex-nowrap flex-col text-center"
     >
@@ -51,7 +51,7 @@
           >
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="w-[100vw] h-[calc(100vh-3rem)] overflow-y-scroll">
       <slot />
     </div>
