@@ -3,14 +3,14 @@
         Forperson: string;
         Næstforperson: string;
         Kasserer: string;
-        medlemmer: string[];
     };
 </script>
 
 <div>
     <div class="w-[100%] h-[100%] flex flex-row justify-center">
         <div class="w-text m-5">
-            <title class="text-5xl">Om Fagrådet</title>
+            <title class="text-5xl">DIKU Fagrådet</title>
+            <h1 class="text-3xl pt-5">DIKU Fagrådet</h1>
             <p class="pt-2">
                 Fagrådet ved Datalogisk Institut på Københavns Universitet
                 (DIKU) er nyopstartet og har til formål at styrke studiemiljøet,
@@ -26,25 +26,54 @@
                     <span class="font-bold">Forperson: </span>{data.Forperson}
                 </div>
                 <div>
-                    <span class="font-bold">Næstforperson: </span
-                    >{data.Næstforperson}
+                    <span class="font-bold"
+                        >Næstforperson:
+                    </span>{data.Næstforperson}
                 </div>
                 <div>
                     <span class="font-bold">Kasserer: </span>{data.Kasserer}
                 </div>
-                <div class="pt-5">
-                    <span class="font-bold">Menige Medlemmer: </span>
-                    <ul class="list-disc list-inside">
-                        {#each data.medlemmer as medlem}
-                            <li>{medlem}</li>
-                        {/each}
-                    </ul>
-                </div>
             </div>
-            <h2 class="text-3xl pt-5">Vedtægter</h2>
-            <p class="pt-2">Bliver tilføjet når vedtægter er godkendt</p>
-            <h2 class="text-3xl pt-5">Referater</h2>
-            <p class="pt-2">Referater kan findes på vores discord <a class="hover:underline font-bold" href="https://discord.com/channels/1116056322849386578/1116062726259753031">her</a></p>
+            <div>
+                <h2 class="text-3xl pt-5">Kalender</h2>
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?src=d4fffacfd512816188d29cfdb9918bcbffcc5bf80195f2cd97f5075207702f87%40group.calendar.google.com&ctz=Europe%2FCopenhagen"
+                    style="border: 0"
+                    width="800"
+                    height="600"
+                    frameborder="0"
+                    scrolling="no"
+                ></iframe>
+            </div>
+        </div>
+        <div class="justify-self-end my-10">
+            <p class="pt-2">
+                <span class="font-bold">Email:</span> dikufagraad[snabel-a]srku.dk
+            </p>
+            <h2 class="text-xl pt-5">Eller find os på</h2>
+            <div class="flex flex-row justify-center gap-5 m-3">
+                <a target="_blank" href="https://discord.gg/7gjU3zgg7s">
+                    <img
+                        class="w-12 aspect-square"
+                        src="discord-logo.svg"
+                        alt="discord"
+                    /></a
+                >
+                <a target="_blank" href="https://www.facebook.com/dikufagraad">
+                    <img
+                        class="w-12 aspect-square"
+                        src="facebook-logo.png"
+                        alt="facebook"
+                    /></a
+                >
+                <a target="_blank" href="https://github.com/diku-fagraad">
+                    <img
+                        class="w-12 aspect-square"
+                        src="github-logo.svg"
+                        alt="github"
+                    /></a
+                >
+            </div>
         </div>
     </div>
 </div>
