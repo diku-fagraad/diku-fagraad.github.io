@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors:{
-        ku: "#901a1e"
+        ku: "#901a1e",
+        group: "#d6eff3"
       },
       spacing:{
         text: "clamp(45ch,50%,75ch)"
