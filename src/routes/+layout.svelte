@@ -2,7 +2,7 @@
   import "../app.css";
   import MenuIcon from "../component/MenuIcon.svelte";
 
-  let isMenuOpen: boolean = true;
+  let isMenuOpen: boolean = false;
 </script>
 
 
@@ -14,7 +14,7 @@
    <div class="flex-1 w-screen">
    <!-- <div
       style={`display:${isMenuOpen ? "flex" : "none"};`}
-      class="fixed top-12 left-0 w-[80%] max-w-sm h-[100%] bg-neutral-300 flex-nowrap flex-col text-center"
+      class="fixed top-12 left-0 w-[80%] max-w-sm h-[100%] bg-group flex-nowrap flex-col text-center"
     >
       <div class="flex flex-nowrap flex-col  text-2xl my-6">
         <a class="hover:text-ku" href="/">Om fagrådet</a>

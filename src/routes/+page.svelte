@@ -1,3 +1,4 @@
+
 <script lang="ts">
     export let data: {
         Forperson: string;
@@ -74,6 +75,7 @@
                     /></a
                 >
             </div>
+
         </div>
     </div>
 </div>

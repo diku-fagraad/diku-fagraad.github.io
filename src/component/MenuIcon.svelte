@@ -7,7 +7,7 @@
     isOpen = !isOpen;
   }
 
-  const genericHamburgerLine = `h-1 w-8 my-1 bg-black transition ease transform duration-300`;
+  const genericHamburgerLine = `h-1 w-8 my-1 bg-neutral-100 transition ease transform duration-300`;
 </script>
 
 <button
