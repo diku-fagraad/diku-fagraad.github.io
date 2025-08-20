@@ -16,25 +16,12 @@ jobs:
           npm install
           npm run build
 
-      - name: Archive artifact
-        run: |
-            tar \
-              --dereference --hard-dereference \
-              --directory "$INPUT_PATH" \
-              -cvf "$RUNNER_TEMP/artifact.tar" \
-              --exclude=.git \
-              --exclude=.github \
-              .
-        env:
-          INPUT_PATH: build
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
         with:
-          name: github-pages
-          path: ${{ runner.temp }}/artifact.tar
-          retention-days: 1
-          if-no-files-found: error
+          path: build/    
+
           
   deploy:
     # Add a dependency to the build job
