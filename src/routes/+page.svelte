@@ -10,16 +10,10 @@
 <div>
     <div class="w-[100%] h-[100%] flex flex-row justify-center">
         <div class="w-text m-5">
-            <title class="text-5xl">DIKU Fagrådet</title>
-            <h1 class="text-3xl pt-5">DIKU Fagrådet</h1>
+            <title class="text-5xl">DIKU Fagråd</title>
+            <h1 class="text-3xl pt-5">DIKU Fagråd</h1>
             <p class="pt-2">
-                Fagrådet ved Datalogisk Institut på Københavns Universitet
-                (DIKU) er nyopstartet og har til formål at styrke studiemiljøet,
-                repræsentere studerendes interesser, og fremme samarbejdet
-                mellem studerende og Institut. Dette inkluderer
-                studievejledning, arrangementer, feedbackindsamling,
-                ressourcefordeling, og bidrag til studieudvikling for at skabe
-                en positiv studieoplevelse.
+               DIKU Fagråds formål er at understøtte studielivet på Datalogisk Institut, at føre studenterpolitik på vegne af instituttets studerende og at være et forum, hvor DIKUs studerende let kan engagere sig fagligt og politisk.
             </p>
             <h2 class="text-3xl pt-5">Bestyrelse</h2>
             <div class="pt-2">
@@ -49,7 +43,7 @@
         </div>
         <div class="justify-self-end my-10">
             <p class="pt-2">
-                <span class="font-bold">Email:</span> dikufagraad[snabel-a]srku.dk
+                <span class="font-bold">Email:</span> kontakt@diku.fagraad.dk
             </p>
             <h2 class="text-xl pt-5">Eller find os på</h2>
             <div class="flex flex-row justify-center gap-5 m-3">
