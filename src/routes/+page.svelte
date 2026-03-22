@@ -30,8 +30,9 @@
                 </div>
             </div>
             <div>
-                <h2 class="text-3xl pt-5">Kalender</h2>
+                <h2 class="text-3xl pt-5">DI'Kalender</h2>
                 <iframe
+                    title="DI'Kalender"
                     src="https://calendar.google.com/calendar/embed?src=d4fffacfd512816188d29cfdb9918bcbffcc5bf80195f2cd97f5075207702f87%40group.calendar.google.com&ctz=Europe%2FCopenhagen"
                     style="border: 0"
                     width="800"

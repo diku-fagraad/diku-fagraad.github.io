@@ -1,5 +1,6 @@
 <script lang="ts">
   import "../app.css";
+  import { page } from '$app/stores';
   import MenuIcon from "../component/MenuIcon.svelte";
 
   let isMenuOpen: boolean = false;
@@ -9,6 +10,10 @@
 
 <div class="flex flex-col h-screen w-screen">
   <div class="w-screen h-12 bg-ku flex content-center">
+    <div class="flex flex-row mx-5 gap-10 items-center text-2xl text-white">
+      <a class="hover:font-bold" href="/" class:font-bold="{$page.url.pathname == "/"}">DIKU Fagråd</a>
+      <a class="hover:font-bold" href="/kalender" class:font-bold="{$page.url.pathname.includes("kalender")}">Kalender</a>
+    </div>
     <!-- <MenuIcon bind:isOpen={isMenuOpen} /> -->
   </div>
    <div class="flex-1 w-screen">
