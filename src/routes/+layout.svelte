@@ -13,6 +13,7 @@
     <div class="flex flex-row mx-5 gap-10 items-center text-2xl text-white">
       <a class="hover:font-bold" href="/" class:font-bold="{$page.url.pathname == "/"}">DIKU Fagråd</a>
       <a class="hover:font-bold" href="/kalender" class:font-bold="{$page.url.pathname.includes("kalender")}">Kalender</a>
+      <a class="hover:font-bold" href="/stoette" class:font-bold="{$page.url.pathname.includes("stoette")}">Støtte</a>
     </div>
     <!-- <MenuIcon bind:isOpen={isMenuOpen} /> -->
   </div>
