@@ -18,6 +18,9 @@
                     scrolling="no"
                 ></iframe>
             </div>
+            <p class="pt-2">
+                Det anbefales at tilføje DI'Kalender til ens egen kalender, så man altid har overblik over alle arrangementerne, hvilket kan gøres med knappen lige ovenfor eller med <a class="text-blue-700" target="_blank" href="https://calendar.google.com/calendar/ical/d4fffacfd512816188d29cfdb9918bcbffcc5bf80195f2cd97f5075207702f87%40group.calendar.google.com/public/basic.ics">dette iCal-link</a>.
+            </p>
         </div>
     </div>
 </div>
