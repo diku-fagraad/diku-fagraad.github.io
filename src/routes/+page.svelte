@@ -1,3 +1,6 @@
+<svelte:head>
+    <title>DIKU Fagråd</title>
+</svelte:head>
 
 <script lang="ts">
     export let data: {
@@ -10,7 +13,6 @@
 <div>
     <div class="w-[100%] h-[100%] flex flex-row justify-center">
         <div class="w-text m-5">
-            <title class="text-5xl">DIKU Fagråd</title>
             <h1 class="text-3xl pt-5">DIKU Fagråd</h1>
             <p class="pt-2">
                DIKU Fagråds formål er at understøtte studielivet på Datalogisk Institut, at føre studenterpolitik på vegne af instituttets studerende og at være et forum, hvor DIKUs studerende let kan engagere sig fagligt og politisk.

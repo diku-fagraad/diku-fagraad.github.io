@@ -1,8 +1,11 @@
-<title>DIKU Fagråd - Støtte</title>
+<svelte:head>
+    <title>Støtte - DIKU Fagråd</title>
+</svelte:head>
+
 <div>
     <div class="w-[100%] h-[100%] flex flex-row justify-center">
         <div class="w-text m-5">
-            <h1 class="text-3xl pt-5">DIKU Fagråd - Støtte</h1>
+            <h1 class="text-3xl pt-5">Støtte</h1>
             <p class="pt-2">
                Har du overvejet at afholde et socialt eller fagligt arrangement på DIKU? Denne side giver hjælp til, hvor du kan søge økonomisk støtte til dit arrangement, hvordan du kan booke et lokale på SCIENCE, hvor du kan få hjælp til PR, og hvor du kan få generel vejledning ift. afholdelse af arrangementer.
             </p>
